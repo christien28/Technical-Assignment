@@ -30,10 +30,10 @@ Output: silver.orders
 
 ## Gold Layer
 ### gold.sales
-- Columns: order_id, order_date, ship_date, ship_mode, city
+- Columns: order_id, order_date, ship_date, ship_mode, city, execution_datetime, source_file
 - Transactional dataset for reporting
 ### gold.customer
-- Columns: customer_id, customer_first_name, customer_last_name ,customer_segment, country, orders_last_1_month, orders_last_6_month,  orders_last_12_month, order_all_time
+- Columns: customer_id, customer_first_name, customer_last_name ,customer_segment, country, execution_datetime, source_file, orders_last_1_month, orders_last_6_month,  orders_last_12_month, order_all_time
 - Customer-level aggregation
 - Metrics:
 > - Orders last 1 month
