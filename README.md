@@ -33,6 +33,7 @@ Output: silver.orders
 - Columns: order_id, order_date, ship_date, ship_mode, city
 - Transactional dataset for reporting
 ### gold.customer
+- Columns: customer_id, customer_first_name, customer_last_name ,customer_segment, country, orders_last_1_month, orders_last_6_month,  orders_last_12_month, order_all_time
 - Customer-level aggregation
 - Metrics:
 > - Orders last 1 month
